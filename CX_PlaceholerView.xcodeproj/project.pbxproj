@@ -13,9 +13,16 @@
 		4CB4F2D820CA8A3600B40B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB4F2D720CA8A3600B40B82 /* Assets.xcassets */; };
 		4CB4F2DB20CA8A3600B40B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB4F2D920CA8A3600B40B82 /* LaunchScreen.storyboard */; };
 		4CB4F2DE20CA8A3600B40B82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4F2DD20CA8A3600B40B82 /* main.m */; };
+		4CB4F2EA20CA8AF900B40B82 /* UIView+PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4F2E520CA8AF900B40B82 /* UIView+PlaceholderView.m */; };
+		4CB4F2EB20CA8AF900B40B82 /* 无商品.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB4F2E620CA8AF900B40B82 /* 无商品.png */; };
+		4CB4F2EC20CA8AF900B40B82 /* 无网.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB4F2E720CA8AF900B40B82 /* 无网.png */; };
+		4CB4F2ED20CA8AF900B40B82 /* 沙发.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB4F2E920CA8AF900B40B82 /* 沙发.png */; };
+		4CB4F2EF20CA8F3100B40B82 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB4F2EE20CA8F3100B40B82 /* 111.png */; };
+		6D09464DAD3EC304422DAE38 /* libPods-CX_PlaceholerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2164D059EB7DEA214AE6689D /* libPods-CX_PlaceholerView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2164D059EB7DEA214AE6689D /* libPods-CX_PlaceholerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CX_PlaceholerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB4F2CB20CA8A3600B40B82 /* CX_PlaceholerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CX_PlaceholerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB4F2CE20CA8A3600B40B82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CB4F2CF20CA8A3600B40B82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,14 @@
 		4CB4F2DA20CA8A3600B40B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CB4F2DC20CA8A3600B40B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB4F2DD20CA8A3600B40B82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CB4F2E520CA8AF900B40B82 /* UIView+PlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PlaceholderView.m"; sourceTree = "<group>"; };
+		4CB4F2E620CA8AF900B40B82 /* 无商品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无商品.png"; sourceTree = "<group>"; };
+		4CB4F2E720CA8AF900B40B82 /* 无网.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无网.png"; sourceTree = "<group>"; };
+		4CB4F2E820CA8AF900B40B82 /* UIView+PlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PlaceholderView.h"; sourceTree = "<group>"; };
+		4CB4F2E920CA8AF900B40B82 /* 沙发.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发.png"; sourceTree = "<group>"; };
+		4CB4F2EE20CA8F3100B40B82 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		AC8963581C5D42E6D8F733B1 /* Pods-CX_PlaceholerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CX_PlaceholerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CX_PlaceholerView/Pods-CX_PlaceholerView.debug.xcconfig"; sourceTree = "<group>"; };
+		EF584BF79DC1B402ECB0A325 /* Pods-CX_PlaceholerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CX_PlaceholerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CX_PlaceholerView/Pods-CX_PlaceholerView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +48,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D09464DAD3EC304422DAE38 /* libPods-CX_PlaceholerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05B1C0F939D332999DF2D3C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2164D059EB7DEA214AE6689D /* libPods-CX_PlaceholerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4CB4F2C220CA8A3600B40B82 = {
 			isa = PBXGroup;
 			children = (
+				4CB4F2E420CA8AF900B40B82 /* UIViewPlaceholderView */,
 				4CB4F2CD20CA8A3600B40B82 /* CX_PlaceholerView */,
 				4CB4F2CC20CA8A3600B40B82 /* Products */,
+				DA6B6D8584AA807BDC46360F /* Pods */,
+				05B1C0F939D332999DF2D3C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +98,28 @@
 			path = CX_PlaceholerView;
 			sourceTree = "<group>";
 		};
+		4CB4F2E420CA8AF900B40B82 /* UIViewPlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				4CB4F2EE20CA8F3100B40B82 /* 111.png */,
+				4CB4F2E920CA8AF900B40B82 /* 沙发.png */,
+				4CB4F2E620CA8AF900B40B82 /* 无商品.png */,
+				4CB4F2E720CA8AF900B40B82 /* 无网.png */,
+				4CB4F2E820CA8AF900B40B82 /* UIView+PlaceholderView.h */,
+				4CB4F2E520CA8AF900B40B82 /* UIView+PlaceholderView.m */,
+			);
+			path = UIViewPlaceholderView;
+			sourceTree = "<group>";
+		};
+		DA6B6D8584AA807BDC46360F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC8963581C5D42E6D8F733B1 /* Pods-CX_PlaceholerView.debug.xcconfig */,
+				EF584BF79DC1B402ECB0A325 /* Pods-CX_PlaceholerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CB4F2E120CA8A3600B40B82 /* Build configuration list for PBXNativeTarget "CX_PlaceholerView" */;
 			buildPhases = (
+				19C5C40307E49D9FD515010B /* [CP] Check Pods Manifest.lock */,
 				4CB4F2C720CA8A3600B40B82 /* Sources */,
 				4CB4F2C820CA8A3600B40B82 /* Frameworks */,
 				4CB4F2C920CA8A3600B40B82 /* Resources */,
+				AA4502310C562252FB603BDF /* [CP] Embed Pods Frameworks */,
+				AF8FF298077176CD561E4682 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,7 +180,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB4F2EC20CA8AF900B40B82 /* 无网.png in Resources */,
+				4CB4F2EF20CA8F3100B40B82 /* 111.png in Resources */,
+				4CB4F2ED20CA8AF900B40B82 /* 沙发.png in Resources */,
 				4CB4F2DB20CA8A3600B40B82 /* LaunchScreen.storyboard in Resources */,
+				4CB4F2EB20CA8AF900B40B82 /* 无商品.png in Resources */,
 				4CB4F2D820CA8A3600B40B82 /* Assets.xcassets in Resources */,
 				4CB4F2D620CA8A3600B40B82 /* Main.storyboard in Resources */,
 			);
@@ -136,12 +192,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19C5C40307E49D9FD515010B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CX_PlaceholerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA4502310C562252FB603BDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CX_PlaceholerView/Pods-CX_PlaceholerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF8FF298077176CD561E4682 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CX_PlaceholerView/Pods-CX_PlaceholerView-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CX_PlaceholerView/Pods-CX_PlaceholerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CB4F2C720CA8A3600B40B82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4CB4F2D320CA8A3600B40B82 /* ViewController.m in Sources */,
+				4CB4F2EA20CA8AF900B40B82 /* UIView+PlaceholderView.m in Sources */,
 				4CB4F2DE20CA8A3600B40B82 /* main.m in Sources */,
 				4CB4F2D020CA8A3600B40B82 /* AppDelegate.m in Sources */,
 			);
@@ -281,6 +392,7 @@
 		};
 		4CB4F2E220CA8A3600B40B82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8963581C5D42E6D8F733B1 /* Pods-CX_PlaceholerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +410,7 @@
 		};
 		4CB4F2E320CA8A3600B40B82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF584BF79DC1B402ECB0A325 /* Pods-CX_PlaceholerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
